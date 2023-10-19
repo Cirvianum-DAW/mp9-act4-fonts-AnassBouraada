@@ -1,7 +1,121 @@
-p.serif {
-  font-family: "Times New Roman", Times, serif;
+/* Estils per als paràgrafs amb fonts normals */
+.normal .frase1 {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px; 
+  color: blue; 
 }
 
-p.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
+.normal .frase2 {
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px; 
+  color: green; 
+}
+
+.normal .frase3 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px; 
+  color: red; 
+}
+
+.normal .frase4 {
+  font-family: "Segoe UI", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px; 
+  color: purple; 
+}
+
+.normal .frase5 {
+  font-family: Calibri, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px; 
+  color: orange; 
+}
+
+.normal .frase6 {
+  font-family: "Lucida Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2px; 
+  color: brown; 
+}
+
+.normal .frase7 {
+  font-family: "Century Gothic", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px; 
+  color: teal; 
+}
+
+.normal .frase8 {
+  font-family: "Book Antiqua", Palatino, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px; 
+  color: maroon; 
+}
+
+.normal .frase9 {
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px; 
+  color: navy; 
+}
+
+.normal .frase10 {
+  font-family: "Myriad Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px; 
+  color: magenta; 
+}
+
+/* Estils per als paràgrafs amb fonts segures per a la web */
+.web-safe .frase1 {
+  font-family: Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px; 
+  color: blue; 
+}
+
+.web-safe .frase2 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px; 
+  color: green; 
+}
+
+.web-safe .frase3 {
+  font-family: Georgia, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px; 
+  color: red; 
+}
+
+.web-safe .frase4 {
+  font-family: Palatino, "Palatino Linotype", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px; 
+  color: purple; 
+}
+
+.web-safe .frase5 {
+  font-family: Garamond, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px; 
+  color: orange; 
 }
